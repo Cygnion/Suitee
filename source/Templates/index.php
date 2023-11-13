@@ -14,5 +14,4 @@
 
 <h1>AAAA</h1>
 
-<script src="../assets/scripts/GlobalScript.js"></script>
 <?php include('footer.php'); ?>

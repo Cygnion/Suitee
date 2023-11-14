@@ -1,0 +1,16 @@
+:root
+{
+  --violet: #C988EF;
+  --pink : #E0A6E2;
+  --base : #FFC4DB;
+  --red : #E886AA;
+  --softBlue : #BDE0FE;
+  --blue : #A2D2FF;
+
+  --good : #00ff04;
+  --bad : #dc2323;
+
+  --BigTitle : 32px;
+  --title : 25px;
+  --font : 20px;
+}

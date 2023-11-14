@@ -9,7 +9,7 @@
     
     <meta name="viewport" content="width=device-width">
 </head>
-
+<body>
 <?php include('navbar.php'); ?>
 
 <h1>AAAA</h1>

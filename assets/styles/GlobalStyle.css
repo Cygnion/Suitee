@@ -1,11 +1,13 @@
 :root
 {
-  --violet: #C988EF;
-  --pink : #E0A6E2;
+  --violet: #9C4CCA;
+  --pink : #CC4BD0;
   --base : #FFC4DB;
+  --background : #e9dbe0;
   --red : #E886AA;
   --softBlue : #BDE0FE;
   --blue : #A2D2FF;
+  --white : #ffffff;
 
   --good : #00ff04;
   --bad : #dc2323;
@@ -13,4 +15,24 @@
   --BigTitle : 32px;
   --title : 25px;
   --font : 20px;
+}
+
+body{
+    background-color: var(--background);
+    color: black;
+    margin: 0;
+}
+
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.directionColumn{
+    flex-direction: column;
+}
+
+.directionRow{
+    flex-direction: row;
 }

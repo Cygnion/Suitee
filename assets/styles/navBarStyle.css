@@ -14,6 +14,10 @@
     flex-grow: 2;
   }
 
+  .NavBar > ul > li:first-child:hover {
+    flex-grow: 2 !important;
+  }
+
   .NavBar > ul > li {
     list-style: none;
     flex-grow: 1;
@@ -23,15 +27,38 @@
   }
   
   .NavBar > ul > li > a {
-    height: 50px;
     width: 100%;
     transition: all 0.7s ease;
-    color: var(--base);
+    color: var(--white);
     text-decoration: none;
     display: flex;
     align-items: center;
-    background-color: var(--blue);
+    background-color: var(--violet);
     justify-content: center;
+    padding-top: 3%;
+  }
+
+  .NavBar > ul > li > a > hr {
+    visibility: hidden;
+    color: var(--white);
+    width: 30%;
+  }
+
+  .NavBar > ul > li > a:hover > hr {
+    animation: TranslateLeftRight 0.8s ease forwards;
+    visibility: visible;
+  }
+
+
+  @keyframes TranslateLeftRight {
+    0% {
+      opacity: 0;
+      width: 0;
+    }
+    100% {
+      opacity: 1;
+      width: 30%;
+    }
   }
 
   .NavBar > ul > li > a > img {
@@ -39,13 +66,11 @@
   }
 
   .Logo:hover{
-    background-color: var(--blue) !important;
     cursor: default !important;
   }
 
   .current{
-    background-color: var(--grey) !important;
-    color: var(--base);
+    color: var(--background);
   }
 
   .NavBar span {
@@ -58,42 +83,48 @@
     display: inline-block;
   }
 
-  .NavBar > ul > li:hover, .SubMenu > li:hover {
-    flex-grow: 1.4;
-  }
-  
   .NavBar > ul > li > a:hover, .SubMenu > li > a:hover {
     transition: all 0.7s ease;
     cursor: pointer;
-    background-color: var(--blue2);
     transition: ease-in-out 0.5s;
+    background-size: 0 2px, 100% 2px;
   }
   
   .SubMenu {
     width: -moz-available;
     position: absolute;
-    border: 1px solid var(--blue);
-    background-color: var(--blue);
+    border: 1px solid var(--violet);
+    background-color: var(--violet);
     top: 100%;
     list-style: none;
-    display: none;
+    display: block;
     padding: 0;
     margin: 0;
   }
 
   .NavBarLiHasChildren:hover > a {    
     transition: all 0.7s ease;
-    background-color: var(--blue2);
   }
 
   .SubMenu > li > a {
     justify-content: center;
-    color: var(--base);
+    color: var(--white);
     text-decoration: none;
     padding-left: 5%;
     height: 50px;
     display: flex;
     align-items: center;
+  }
+
+  .SubMenu > li > a > hr {
+    visibility: hidden;
+    color: var(--white);
+    width: 30%;
+  }
+
+  .SubMenu > li > a:hover > hr {
+    animation: TranslateLeftRight 0.8s ease forwards;
+    visibility: visible;
   }
   
   .NavBarLiHasChildren:hover > .SubMenu {

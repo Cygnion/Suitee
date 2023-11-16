@@ -12,6 +12,6 @@
 <body>
 <?php include('navbar.php'); ?>
 
-<h1>Si tu lis ca tu es con</h1>
+<h1>Yeepi</h1>
 
 <?php include('footer.php'); ?>

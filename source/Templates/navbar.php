@@ -9,24 +9,68 @@
         </button>
         <nav class="NavBar" id="NavBar" style="border-bottom: 1px solid white;">
             <ul id="UlMenu">
-                <li><a class="Logo displayFex directionColumn">
-                    <img src="assets/images/Logo.png" alt="Logo">
-                </a></li>
-                <li><a class="displayFex directionColumn" href="index.php">
-                    Accueil
-                    <hr>
-                </a></li>
-                <li><a class="displayFex directionColumn" href="recipe.php">
-                    Nos Recettes
-                    <hr>
-                </a></li>
+                <li>
+                    <a class="Logo displayFex">
+                        <img src="assets/images/Logo.png" alt="Logo">
+                    </a>
+                </li>
+
+                <li>
+                    <a class="displayFex" href="index.php">
+                        <div>
+                            <p>Yuwu</p>
+                            <hr>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="displayFex" href="recipe.php">
+                        <div>
+                            <p>Yuwu</p>
+                            <hr>
+                        </div>
+                    </a>
+                </li>
+
                 <li class="NavBarLiHasChildren">
-                    <a>Filtres<span>▼</span></a>
-                    <hr>
+
+                    <a href="#">
+                        <div>
+                            <p>Yuwu<span>▼</span></p>
+                            <hr>
+                        </div>
+                    </a>
+                    
                     <ul class="SubMenu">
-                        <li><a class="triggerCategory displayFex directionColumn" href="#">Catégories<hr></a></li>
-                        <li><a class="triggerTitle displayFex directionColumn" href="#">Titre<hr></a></li>
-                        <li><a class="triggerIngredient displayFex directionColumn" href="#">Ingrédients<hr></a></li>
+
+                        <li>
+                            <a class="displayFex" href="#">
+                                <div>
+                                    <p>Yuwu</p>
+                                    <hr>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="displayFex" href="#">
+                                <div>
+                                    <p>Yuwu</p>
+                                    <hr>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="displayFex" href="#">
+                                <div>
+                                    <p>Yuwu</p>
+                                    <hr>
+                                </div>
+                            </a>
+                        </li>
+
                     </ul>
                 </li>
             </ul>

@@ -1,0 +1,88 @@
+content > h1 {
+    font-size: 45px;
+    animation: A 10s ease forwards;
+  }
+  
+  @keyframes A {
+    0% {
+      filter: blur(15px);
+      opacity: 0;
+      font-size: 0px;
+      transform: rotate(90px);
+    }
+  
+    100% {
+      filter: blur(0px);
+      font-size: 140px;
+      transform: rotate(0px);
+      opacity: 1;
+    }
+  }
+  
+  .presentationIndex{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+  }
+  
+  .presentationIndex h1 {
+    font-size: 13vw; 
+  }
+  
+  .text-rainbow{
+    background: #CA4246;
+    background-color: #CA4246;
+    background: conic-gradient(
+      #CA4246 16.666%, 
+      #E16541 16.666%, 
+      #E16541 33.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #476098 66.666%, 
+      #476098 83.333%, 
+      #A7489B 83.333%);
+    
+    background-size: 57%;
+    background-repeat: repeat;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-weight:700;
+  }
+  
+  .presentationIndex.translateYAnimation {
+    animation: translateYAnimation 1s ease forwards;
+  }
+  
+  @keyframes translateYAnimation {
+    0% {
+      opacity: 1;
+      filter: blur(0px);
+    }
+    100% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  .contenttranslateYAnimation2 {
+    animation: translateYAnimation2 2s ease forwards;
+  }
+  
+  @keyframes translateYAnimation2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

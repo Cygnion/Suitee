@@ -9,12 +9,11 @@ abstract class Manager
 
     public function __construct()
     {
-        include_once('../database/connector.php');
         $this->pdo = initPDO();
     }
 
-    abstract public function getById();
-    abstract public function getAll();
+    abstract public function getById(int $id):?Model;
+    abstract public function getAll():array;
 }
 
 ?>

@@ -36,3 +36,24 @@ body{
 .directionRow{
     flex-direction: row;
 }
+
+h1{
+    font-size: 45px;
+    animation: A 10s ease forwards;
+}
+
+
+  @keyframes A {
+    0% {
+      filter : blur(15px);
+      opacity: 0;
+      font-size: 0px;
+      transform: rotate(90px);
+    }
+    100% {
+      filter : blur(0px);
+      font-size: 140px;
+      transform: rotate(0px);
+      opacity: 1;
+    }
+  }

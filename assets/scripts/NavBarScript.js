@@ -1,16 +1,17 @@
-// Get all elements with the class "link-with-animation"
-var LinkNavBar = document.querySelectorAll('.NavBar > ul > li > a');
-
-// Add event listeners to each link
-LinkNavBar.forEach(function(link) {
-  link.addEventListener('mouseenter', function() {
-    console.log(this.firstChild.children)
-    console.log("bb")
+document.getElementById("SubMenu").addEventListener("mouseenter", function(){ 
+  var LinkSubMenu = document.querySelectorAll('.SubMenu > div > li > a');
+  let cmpt = 1;
+  LinkSubMenu.forEach(function(link) {
+    link.classList.add("appearAnimation");
+    link.style.animation = `appear ${cmpt}s ease forwards`;
+    cmpt++;
   });
+})
 
-  link.addEventListener('mouseleave', function() {
-    this.style.animation = "animation: TranslateLeftRight 0.8s ease reverse";
-    console.log(this.style.animation)
-    console.log("aaaaa")
+
+document.getElementById("SubMenu").addEventListener("mouseleave", function(){
+  var LinkSubMenu = document.querySelectorAll('.SubMenu > div > li > a');
+  LinkSubMenu.forEach(function(link) {
+    link.classList.remove("appearAnimation");
   });
-});
+})

@@ -11,12 +11,47 @@
 <body>
 <?php include('navbar.php'); ?>
 
-<div class="presentationIndex displayFlex">
-    <h1 class="text-rainbow">Femboiii</h1>
+<div class="presentationIndex displayFlex directionColumn">
+    <img src="../../assets/logo/logo.png" alt="Logo Femboiii">
 </div>
 
 <div class="content">
-    <h1>Yeepi</h1>
+    <div class="row displayFlex directionRow">
+        <div class="displayFlex">
+            <div class="TopLeftIndex displayFlex">
+                <h1>Yeepi</h1>
+            </div>
+        </div>
+        <div class="displayFlex">
+            <div class="TopRightIndex displayFlex">
+                <h1>Yeepi</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row displayFlex directionRow">
+        <div class="displayFlex">
+            <div class="BottomLeftIndex displayFlex">
+                <h1>Yeepi</h1>
+            </div>
+        </div>
+        <div class="displayFlex">
+            <div class="BottomRightIndex displayFlex">
+                <h1>Yeepi</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="colorsDiv displayFlex directionRow">
+        <div>Violet</div>
+        <div>SoftViolet</div>
+        <div>Base</div>
+        <div>SoftPink</div>
+        <div>Pink</div>
+        <div>SoftBlue</div>
+        <div>Blue</div>
+        <div>Success</div>
+        <div>Failure</div>
+    </div>
 </div>
 
 <?php include('footer.php'); ?>

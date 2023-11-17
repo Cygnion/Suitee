@@ -1,16 +1,16 @@
 :root {
-  --violet: #9C4CCA;
-  --softViolet: #CC4BD0;
+  --violet: #DB66DF;
+  --softViolet: #E98CEC;
   --base: #FFC4DB;
-  --background: #e9dbe0;
+  --background: #eee;
   --pink: #EA739F;
   --softPink: #E886AA;
   --softBlue: #BDE0FE;
-  --blue: #A2D2FF;
+  --blue: #7DBDF9;
   --white: #ffffff;
 
-  --good: #00ff04;
-  --bad: #dc2323;
+  --success: #62dd65;
+  --failure: #bb2f2f;
 
   --BigTitle: 32px;
   --title: 25px;
@@ -18,9 +18,7 @@
 }
 
 body {
-  background-color: var(--softPink);
   color: var(--white);
-  height: 100vh;
   margin: 0;
 }
 
@@ -36,4 +34,8 @@ body {
 
 .directionRow {
   flex-direction: row;
+}
+
+input:focus{
+  outline: none;
 }

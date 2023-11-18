@@ -3,10 +3,10 @@
   --softViolet: #E98CEC;
   --base: #FFC4DB;
   --background: #eee;
-  --pink: #EA739F;
-  --softPink: #E886AA;
-  --softBlue: #BDE0FE;
-  --blue: #7DBDF9;
+  --pink: #f7cbdd;
+  --softPink: #f8dfeb;
+  --softBlue: #7785c1;
+  --blue: #6877b5;
   --white: #ffffff;
 
   --success: #62dd65;
@@ -18,7 +18,7 @@
 }
 
 body {
-  color: var(--white);
+  color: var(--blue);
   margin: 0;
 }
 

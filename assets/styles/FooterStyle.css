@@ -1,0 +1,42 @@
+footer{
+    position: sticky;
+    width: 100%;
+    background-color: var(--pink);
+    bottom: 0;
+    z-index: 9999;
+    display: none !important;
+}
+
+footer > p{
+    flex-grow: 1;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    transition: all ease-in-out 0.5s;
+}
+
+footer > p:hover{
+    cursor: pointer;
+}
+
+footer > p:hover > a{
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+footer > p > a {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+    color: var(--blue);
+}
+
+@media screen and (max-width: 500px) {
+    footer{
+        display: flex !important;
+    }
+}

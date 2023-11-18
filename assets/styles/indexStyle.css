@@ -1,5 +1,6 @@
 .content{
   padding: 1%;
+  background-color: var(--softPink);
 }
 
 .text-rainbow {
@@ -23,61 +24,13 @@
     -webkit-text-fill-color: transparent;
     font-weight: 700;
 }
-
-.middle{
-    width: 100vw;
-    height: 100vh;
-    background: rgba(255, 255, 255, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    perspective: 1000px;
-    position: absolute;
-    top: 0;
-    z-index: 9999999999999999999999;
-}
-
-.middle > .rounded{
-    opacity: 0;
-    border-radius: 50%;
-    border: 2px solid #a2d2ff;
-    width: 500px;
-    height: 500px;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.middle > .rounded > .middleLogo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.middle > .rounded > .middleLogo > p{
-    font-size: 160px;
-    color: #a2d2ff;
-    margin: 0;
-    font-family: 'Bree Serif', serif;
-    line-height: 1;
-    opacity: 0;
-}
-
-.middle > .rounded > .middleLogo > svg{
-    width: 90%;
-    opacity: 0;
-}
-
 .row{
     width: 100%;
 }
 
 .row > * {
     border-radius: 50px;
-    background-color: var(--blue);
+    background-color: var(--pink);
     padding: 2%;
     text-align: center;
     font-size: 25px;
@@ -146,4 +99,10 @@
 
 .colorsDiv > div:nth-child(9){
     background-color: var(--failure);
+}
+
+@media screen and (max-width: 500px) {
+    .colorsDiv > div {
+        font-size: 2vw;
+    }
 }

@@ -1,6 +1,6 @@
 :root {
-  --violet: #DB66DF;
-  --softViolet: #E98CEC;
+  --violet: #c73f8b;
+  --softViolet: #b56893;
   --base: #FFC4DB;
   --background: #eee;
   --pink: #f7cbdd;
@@ -9,8 +9,9 @@
   --blue: #6877b5;
   --white: #ffffff;
 
-  --success: #62dd65;
-  --failure: #bb2f2f;
+  --green: #62dd65;
+  --red: #CE355A;
+  --redSoft : #D2506F;
 
   --BigTitle: 32px;
   --title: 25px;

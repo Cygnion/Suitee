@@ -30,8 +30,8 @@
 
 .row > * {
     border-radius: 50px;
-    background-color: var(--pink);
-    padding: 2%;
+    border: 5px solid transparent;
+    padding: 0.3%;
     text-align: center;
     font-size: 25px;
     width: 40%;
@@ -39,22 +39,19 @@
     margin-left: 3%;
     margin-top: 2%;
     margin-bottom: 2%;
+    pointer-events: none;
 }
 
-.row > .TopLeftIndex{
-
+.row > div:hover{
+    border-color: var(--white);
 }
 
-.row > .TopRightIndex{
-
-}
-
-.row > .BottomLeftIndex{
-
-}
-
-.row > .BottomRightIndex{
-
+.row > div > * {
+    pointer-events: auto;
+    width: 100%;
+    height: 100%;
+    background-color: var(--pink);
+    border-radius: 40px;
 }
 
 .colorsDiv > div{
@@ -94,11 +91,11 @@
 }
 
 .colorsDiv > div:nth-child(8){
-    background-color: var(--success);
+    background-color: var(--green);
 }
 
 .colorsDiv > div:nth-child(9){
-    background-color: var(--failure);
+    background-color: var(--red);
 }
 
 @media screen and (max-width: 500px) {

@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+    //entranceAnimation();
+    StartBackground.style.display = "none";
+});
+
+  function entranceAnimation(){
     const animatedDiv = document.getElementById('RoundDivLogo');
     const TextInLogo = document.getElementById('TextInLogo');
     const SkirtInLogo = document.getElementById('SkirtInLogo');
@@ -42,4 +47,4 @@ document.addEventListener("DOMContentLoaded", function () {
             StartBackground.style.display = "none";
         }
     });
-  });
+  }

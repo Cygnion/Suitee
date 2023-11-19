@@ -98,11 +98,13 @@ header{
 .NavBar>ul>li:nth-child(3) > a, .NavBar>ul>li:nth-child(4) > a, .NavBar>ul>li:nth-child(5) > a{
   border-radius: 50%;
   width: 50px;
+  border: 3px solid transparent;
   height: 50px;
 }
 
 .NavBar>ul>li:nth-child(3) > a:hover, .NavBar>ul>li:nth-child(4) > a:hover, .NavBar>ul>li:nth-child(5) > a:hover{
-  background-color: var(--white);
+  background-color:  rgba(255, 255, 255, 1);
+  color: var(--softViolet);
 }
 
 .NavBar>ul>li:nth-child(6){

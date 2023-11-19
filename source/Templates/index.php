@@ -47,31 +47,6 @@
         </div>
     </div>
 
-    <div class="row displayFlex directionRow">
-        <div class="displayFlex">
-            <div class="TopLeftIndex displayFlex">
-                <h1>Yeepi</h1>
-            </div>
-        </div>
-        <div class="displayFlex">
-            <div class="TopRightIndex displayFlex">
-                <h1>Yeepi</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row displayFlex directionRow">
-        <div class="displayFlex">
-            <div class="BottomLeftIndex displayFlex">
-                <h1>Yeepi</h1>
-            </div>
-        </div>
-        <div class="displayFlex">
-            <div class="BottomRightIndex displayFlex">
-                <h1>Yeepi</h1>
-            </div>
-        </div>
-    </div>
-
     <div class="colorsDiv displayFlex directionRow">
         <div>Violet</div>
         <div>SoftViolet</div>

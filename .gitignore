@@ -1,1 +1,5 @@
 .env
+.phive
+phive.phar.asc
+documentation/php
+.phpdoc

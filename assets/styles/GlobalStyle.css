@@ -1,13 +1,14 @@
-:root {
-  --violet: #c73f8b;
-  --softViolet: #b56893;
-  --base: #FFC4DB;
-  --background: #eee;
-  --pink: #f7cbdd;
-  --softPink: #f8dfeb;
-  --softBlue: #7785c1;
-  --blue: #6877b5;
-  --white: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+:root
+{
+  --violet: #C988EF;
+  --pink : #E0A6E2;
+  --base : #FFC4DB;
+  --red : #E886AA;
+  --softBlue : #BDE0FE;
+  --blue : #A2D2FF;
 
   --green: #62dd65;
   --red: #CE355A;

@@ -1,5 +1,5 @@
 <body>
-    <header class="site-header">
+    <header class="site-header" id="header">
         <nav class="NavBar" id="NavBar">
             <ul id="UlMenu">
                 <li>
@@ -32,11 +32,15 @@
                     </a>
                 </li>
 
-                <li>
-                    <a href="#">
-                        <p>Account name</p>
+                <li class="NavBarLiHasChildren" id="Profil_li">
+                    <a href="#" id="Profil">
+                        <p id="AccountName">Account name</p>
                         <img src="../../assets/logo/logo.png" alt="Me">
                     </a>
+                    <ul class="SubMenu" id="ProfilChild">
+                        <li><a href="#">Profil</a></li>
+                        <li><a href="#">Parameters</a></li>
+                    </ul>
                 </li>
             </ul>
         </nav>

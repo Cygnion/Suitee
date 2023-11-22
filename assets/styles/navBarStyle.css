@@ -25,18 +25,18 @@ header{
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: var(--pink);
+  background-color: var(--black);
   align-items: center;
 }
 
 .NavBar>ul>li>a {
   width: 100%;
   transition: all 0.7s ease;
-  color: var(--softBlue);
+  color: var(--redBetter);
   text-decoration: none;
   display: flex;
   align-items: center;
-  background-color: var(--pink);
+  background-color: var(--black);
   justify-content: center;
 }
 
@@ -72,7 +72,7 @@ header{
   width: 88%;
   height: 45px;
   border-radius: 10px;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--redBetter);
   padding-left: 2%;
 }
 
@@ -87,11 +87,11 @@ header{
 
 .NavBar>ul>li:nth-child(2){
   transition: all 0.7s ease;
-  background-color: var(--pink);
+  background-color: var(--black);
 }
 
 .NavBar>ul>li:nth-child(3), .NavBar>ul>li:nth-child(4), .NavBar>ul>li:nth-child(5){
-  background-color: var(--pink);
+  background-color: var(--black);
   flex-grow: 1;
 }
 
@@ -104,18 +104,18 @@ header{
 
 .NavBar>ul>li:nth-child(3) > a:hover, .NavBar>ul>li:nth-child(4) > a:hover, .NavBar>ul>li:nth-child(5) > a:hover{
   background-color:  rgba(255, 255, 255, 1);
-  color: var(--softViolet);
+  color: var(--redBetter);
 }
 
 .NavBar>ul>li:nth-child(6){
-  background-color: var(--pink);
+  background-color: var(--black);
   flex-grow: 3;
 }
 
 .NavBar>ul>li:nth-child(6) > a{
   border-radius: 50px;
-  background-color: var(--blue);
-  color: var(--pink);
+  background-color: var(--redBetter);
+  color: var(--white);
   height: 45px;
   text-align: center;
   font-size: 25px;
@@ -135,6 +135,36 @@ header{
 
 .NavBar>ul>li>a:hover {
   cursor: pointer;
+}
+
+.SubMenu {
+  width: 80%;
+  position: absolute;
+  background-color: var(--redBetter);
+  top: 89%;
+  list-style: none;
+  display: none;
+  padding: 0;
+  transition: all 0.7s ease;
+  margin: 0;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.SubMenu > li > a {
+  transition: all 0.7s ease;
+  justify-content: center;
+  color: var(--white);
+  text-decoration: none;
+  padding-left: 5%;
+  font-size: 25px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.SubMenu .NavBarLiHasChildren {
+  position: relative;
 }
 
 @media screen and (max-width: 1000px) {
@@ -158,6 +188,25 @@ header{
   .NavBar > ul > li:nth-child(6) > a > p {
     display: none;
   }
+
+  .SubMenu {
+    width: 398%;
+    left: -313%;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  .NavBarLiHasChildren:hover > .SubMenu {
+    display: block !important;
+  }
+
+  .NavBarLiHasChildren:hover > a:first-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -167,5 +216,10 @@ header{
 
   .NavBar>ul>li:nth-child(3), .NavBar>ul>li:nth-child(4), .NavBar>ul>li:nth-child(5){
     display: none;
+  }
+
+  .SubMenu {
+    width: 100%;
+    left: 0;
   }
 }

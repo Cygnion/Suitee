@@ -21,28 +21,50 @@
     </div>
 </div>
 
-<div class="content">
-    <div class="row displayFlex directionRow">
-        <div class="displayFlex">
-            <div class="TopLeftIndex displayFlex">
-                <h1>Yeepi</h1>
+<div class="content" id="content">
+
+    <h1 class="displayFlex FirstTitle">Suitee : 'Cause you're beautiful</h1>
+
+    <div class="contentImg">
+        <h3 class="h3ContentImg">That might interest you...</h3>
+
+        <div class="row displayFlex directionRow">
+            <div class="displayFlex">
+                <div class="displayFlex">
+                    <h1>Yeepi</h1>
+                </div>
+            </div>
+            <div class="displayFlex">
+                <div class="displayFlex">
+                    <h1>Yeepi</h1>
+                </div>
+            </div>
+            <div class="displayFlex">
+                <div class="displayFlex">
+                    <h1>Yeepi</h1>
+                </div>
+            </div>
+            <div class="displayFlex">
+                <div class="displayFlex">
+                    <h1>Yeepi</h1>
+                </div>
+            </div>
+            <div class="displayFlex">
+                <div class="displayFlex">
+                    <h1>Yeepi</h1>
+                </div>
             </div>
         </div>
-        <div class="displayFlex">
-            <div class="TopRightIndex displayFlex">
-                <h1>Yeepi</h1>
+        <div class="row displayFlex directionRow">
+            <div class="displayFlex">
+                <div class="displayFlex">
+                    <h1>Yeepi</h1>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="row displayFlex directionRow">
-        <div class="displayFlex">
-            <div class="BottomLeftIndex displayFlex">
-                <h1>Yeepi</h1>
-            </div>
-        </div>
-        <div class="displayFlex">
-            <div class="BottomRightIndex displayFlex">
-                <h1>Yeepi</h1>
+            <div class="displayFlex">
+                <div class="displayFlex">
+                    <h1>Yeepi</h1>
+                </div>
             </div>
         </div>
     </div>

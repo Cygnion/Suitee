@@ -1,7 +1,11 @@
 <?php 
 
 
-
+/**
+ * Abstract class representing a Manager. Contains PDO.
+ * @author Waterfox 
+ * @version 1.0.
+ */
 abstract class Manager 
 {
 

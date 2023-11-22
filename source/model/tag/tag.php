@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Represent a model for tag instance in database. Extends Model.
+ * @author Waterfox
+ * @version 1.0
+ */
 class Tag extends Model
 {
     public ?int $id; //Nullable because a new tag haven't an id
